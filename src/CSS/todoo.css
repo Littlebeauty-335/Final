@@ -25,11 +25,11 @@ button {
   
 /* Form.js */
 .form {
-  height: 80vh;
+  height: 84vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #b6b0c8;
+  background: #f6f6f6;
 }
 
 .form >   h1{
@@ -54,6 +54,7 @@ textarea {
   margin: 8px 10px;
   box-sizing: border-box;
   border-radius: 15px;
+  border: none;
   border-color: black;
   background-color: white;
   color: grey(10, 10, 10, 0.11);
@@ -82,9 +83,10 @@ textarea:focus {
   padding: 12px 20px;
   margin: 8px 10px;
   float: right;
+  border: none;
   box-sizing: border-box;
   border-color: black;
-  border-radius: 15px;
+  border-radius: 5px;
   background-color: white;
   color: grey(10, 10, 10);
   font-family: Arial, Helvetica, sans-serif;
@@ -110,4 +112,8 @@ textarea:focus {
 
 .form > button:hover {
   background-color: #37c4d7(0, 0, 196);
+}
+
+.date {
+  font-size: medium;
 }

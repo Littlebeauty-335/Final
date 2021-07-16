@@ -55,7 +55,7 @@ const Form = () => {
       
       <form className="form" onSubmit={handleSubmit}>
         <h1>Have a Question? Chat with professional</h1>
-        <h2>Don't put up with pain!Make an appointment</h2>
+        <h2>Don't put up with pain ! Make an appointment</h2>
 
         
         <Grid
@@ -63,10 +63,10 @@ const Form = () => {
         direction="row"
         justifyContent="space-evenly"
         alignItems="center"
->
+        >
         <Grid item xs={6}>
           
-        <input style={{ marginTop:'20px',  width: '250px' , height:'40px' , borderRadius: '10px', paddingLeft:'5px'}}
+        <input style={{ marginTop:'20px',  width: '250px' , height:'40px' , borderRadius: '5px', paddingLeft:'5px', border:'none'}}
           placeholder="Your name"
           value={name}
           onChange={(e) => setName(e.target.value)}
@@ -74,7 +74,7 @@ const Form = () => {
         </Grid>
 
         <Grid item xs={6}>   
-         <input style={{ marginTop:'20px',  width: '250px' , height:'40px' , borderRadius: '10px' , color:'grey',paddingLeft:'5px'}}
+         <input style={{ marginTop:'20px',  width: '250px' , height:'40px' , borderRadius: '5px' , color:'grey',paddingLeft:'5px', border:'none'}}
           placeholder="Age"
           value={age}
           onChange={(e) => setAge(e.target.value)}
@@ -83,7 +83,7 @@ const Form = () => {
         </Grid>
 
         <Grid item xs={6}>
-        <select style={{ marginTop:'20px',  width: '250px' , height:'40px' , borderRadius: '10px' , color:'grey',paddingLeft:'5px'}}
+        <select style={{ marginTop:'20px',  width: '250px' , height:'40px' , borderRadius: '5px' , color:'grey',paddingLeft:'5px', border:'none'}}
         onChange={(e)=> setGender(e.target.value)} defaultValue="Gender">
             <option defaultValue>Gender</option>
             <option value="Male">Male</option>
@@ -93,7 +93,7 @@ const Form = () => {
         </Grid>
 
         <Grid item xs={6}>
-        <select style={{ marginTop:'20px',  width: '250px' , height:'40px' , borderRadius: '10px', color:'grey',paddingLeft:'5px'}}
+        <select style={{ marginTop:'20px',  width: '250px' , height:'40px' , borderRadius: '5px', color:'grey',paddingLeft:'5px',border:'none'}}
          onChange={(e)=> setInterested(e.target.value)} defaultValue="Intersted in">
             <option defaultValue>How can we help ?</option>
             <option value="Ankle Pain">Ankle Pain</option>
@@ -109,14 +109,12 @@ const Form = () => {
         </Grid>
 
         <Grid item xs={6}>
-        <input style={{ marginTop:'20px',  width: '250px' , height:'40px' , borderRadius: '10px',paddingLeft:'5px'}}
+        <input style={{ marginTop:'20px',  width: '250px' , height:'40px' , borderRadius: '5px',paddingLeft:'5px',border:'none'}}
           placeholder="Your Phone"
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
         />
         </Grid>
-
-       
 
         < br/>
 
@@ -125,7 +123,7 @@ const Form = () => {
          </Grid>
 
          <Grid item xs={6}>
-         <textarea style={{ width:'230px' , alignContent:'center', marginTop:'20px',textAlign:'center'}}
+         <textarea style={{ width:'230px' , alignContent:'center', marginTop:'20px',textAlign:'center', border:'none',borderRadius:'5px'}}
           placeholder="Problem Description"
           value={description}
           onChange={(e) => setDescription(e.target.value)}

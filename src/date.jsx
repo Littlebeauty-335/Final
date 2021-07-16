@@ -9,8 +9,7 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: 'wrap',
     direction:"row",
     marginLeft:"75px",
-    marginTop:"20px"
-    
+    marginTop:"20px",  
   },
   textField: {
     marginLeft: theme.spacing(1),
@@ -25,10 +24,10 @@ export default function DatePickers() {
   return (
     <form 
      className={classes.container} noValidate>
-      <TextField style={{color: 'grey', boxSizing:'border-box', borderRadius:'15px', borderColor:'black'}}
+      <TextField style={{color: 'grey', border:'none'}}
         id="date"
         type="date"
-        defaultValue="2017-05-24"
+        defaultValue="2021-07-15"
         className={classes.textField}
         InputLabelProps={{
           shrink: true,
