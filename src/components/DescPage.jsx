@@ -26,13 +26,13 @@ export default function Welcomingsection() {
       alignItems="center"
       spacing={3} xs={12} sm={12} md={12} lg={12}
       >
-        <Grid item xs={12} sm={12} md={6} lg={6}>
-            <h1 style={{color: '#37c4d7'}}>Welcome to Our Orthopedics Clinic</h1><br></br>
-            <h1 style={{fontSize:'45px'}}>We offer specialized orthopedics to meet your needs</h1><br></br>
-            <p style={{fontSize:'25px'}}>From routine doctor visits to the most<br></br>advanced procedures, we’re here for you.<br></br> Our physicians specialize in orthopedic <br></br>surgery and handle the diagnosis and treatment of injuries of the bones, muscles and ligaments in both adults and children.</p>
+        <Grid item xs={12} sm={12} md={6} >
+            <h1 style={{color: '#5ca9fb', marginLeft:'80px' , fontSize:'20px',marginTop:'5x'}}>Welcome to Our Orthopedics Clinic</h1><br></br>
+            <h3 style={{fontSize:'40px', marginLeft:'80px', color:'black', marginTop:'2px'}}>We offer specialized orthopedics to meet your needs</h3><br></br>
+            <p style={{fontSize:'15px', paddingLeft:'80px', }}>From routine doctor visits to the most advanced procedures, we’re here for you. Our physicians specialize in orthopedic surgery and handle the diagnosis and treatment of injuries of the bones, muscles and ligaments in both adults and children.</p>
             </Grid>
             <Grid item xs={12} sm={12} md={6} lg={6}>
-            <img height='600px' src={handxray} alt="Handxray" />
+            <img height='600px' src={handxray} alt="Handxray" paddingright='300px'/>
             </Grid>
             
         

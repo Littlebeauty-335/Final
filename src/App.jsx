@@ -11,9 +11,6 @@ import SmoothScroll from 'smooth-scroll'
 import Grid1 from './grid'
 import Advantages from './components/advantages'
 import Welcomingsection from './components/DescPage'
-import Request from './components/request'
-
-
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -35,9 +32,8 @@ const App = () => {
       <About data={landingPageData.About} />
       <Advantages/>
       <Services data={landingPageData.Services}/>
-      <Request/>
       <Testimonials data={landingPageData.Testimonials} />
-=      <Grid1/>
+      <Grid1/>
       <Contact data={landingPageData.Contact} />
     </div>
   )

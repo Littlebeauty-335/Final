@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color: #d9d9d9;
+  background-color: #f6f6f6;
     }
 
 
@@ -29,6 +29,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: #b6b0c8;
 }
 
 .form >   h1{
